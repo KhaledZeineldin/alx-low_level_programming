@@ -5,17 +5,13 @@
  *
  * Description: A program that prints using the puts function
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  *
 */
 
 int main(void)
 {
 	char[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	for (int i = 0; i < 59; i++)
-{
-	putchar(char[i]);
-}
-putchar("\n");
-return (1);
+	write(1,quo,59);
+	return (1);
 }
