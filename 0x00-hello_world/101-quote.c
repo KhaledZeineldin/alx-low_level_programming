@@ -11,7 +11,8 @@
 
 int main(void)
 {
-	char phrase[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	write(1, phrase, 59);
+	char wo[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+
+	write(1, wo, 59);
 	return (1);
 }
