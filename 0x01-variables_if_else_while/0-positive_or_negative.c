@@ -19,10 +19,12 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n >= 0)
-	{printf("%dis positive", n);
+	{
+		printf("%dis positive", n);
 	}
 	if (n == 0)
-	{printf("%dis zero", n);
+	{
+		printf("%dis zero", n);
 	}
 	else
 	{printf("%dis negative", n);
