@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: A program that prints using the puts function
+ *
+ * Return: Always 1 (Success)
+ *
+*/
+
 int main(void)
 {
 int i, j, k;
