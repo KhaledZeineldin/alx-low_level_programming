@@ -38,4 +38,5 @@ continue;
 putchar(',');
 }
 }
+return (0);
 }
