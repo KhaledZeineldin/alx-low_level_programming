@@ -29,13 +29,13 @@ if (x >= 98 && y >= 99)
 {
 continue;
 }
-putchar(' ');
+putchar(',');
 
 if (y >= 99 && x >= 98)
 {
 continue;
 }
-putchar(',');
+putchar(' ');
 }
 }
 return (0);
