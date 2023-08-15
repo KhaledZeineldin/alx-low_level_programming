@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <time.h>
+#include "main.h"
 #include <stdio.h>
 /**
  * print_sign - prints 1 if character is lower case else 0
