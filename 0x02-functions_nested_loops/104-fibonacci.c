@@ -32,7 +32,7 @@ h1 += 1;
 h2 %= 10000000000;
 }
 printf("%lu%lu", h1, h2);
-if (inc != 100)
+if (inc != 98)
 printf(", ");
 
 n1_h1 = n2_h1;
