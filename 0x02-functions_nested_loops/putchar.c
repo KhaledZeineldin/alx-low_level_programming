@@ -1,4 +1,5 @@
-#include "main.h"
+#include<unistd.h>
+nclude "main.h"
 /**
  * main - entry point
  *
@@ -11,12 +12,5 @@
 
 int main(void)
 {
-	char str[] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
-	       _putchar(str[i]);
-	_putchar("\n");
-
-	return (0);	
+	return (write(1, &c, 1));
 }
