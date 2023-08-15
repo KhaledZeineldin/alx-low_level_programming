@@ -6,12 +6,12 @@
 */
 int main(void)
 {
-int n, x = 1, y = 0, sum = 0;
+unsigned long n, x = 1, y = 0, sum = 0;
 for (n = 0; n < 100; n++)
 {
 sum = x + y;
 y = x;
-printf("%d", sum);
+printf("%lu", sum);
 x = sum;
 if (n == 99)
 {
