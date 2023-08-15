@@ -1,7 +1,7 @@
-#include<stdio.h>
-
+#include<unistd.h>
+nclude "main.h"
 /**
- * main - Entry point
+ * _putchar - writes each character to console
  *
  * Description: A program that prints the sign of the input number
  *
@@ -11,6 +11,6 @@
 
 int main (void)
 {
-	printf("_putchar\n");
-	return (0);
+	
+	return (write(1, &c, 1));
 }
