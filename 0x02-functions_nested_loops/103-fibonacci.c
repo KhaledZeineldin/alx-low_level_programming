@@ -17,7 +17,7 @@ if (sum % 2 == 0)
 total += sum;
 if (total >= 4000000)
 {
-printf("%lu", total);
+printf("%lu\n", total);
 break;
 }
 }
