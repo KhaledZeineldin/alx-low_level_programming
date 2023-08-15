@@ -13,7 +13,7 @@ sum = x + y;
 y = x;
 printf("%lu", sum);
 x = sum;
-if (n == 99)
+if (n == 49)
 {
 continue;
 }
