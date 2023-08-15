@@ -13,6 +13,11 @@ sum = x + y;
 y = x;
 printf("%d", sum);
 x = sum;
+if (n == 99)
+{
+continue;
+}
+printf(", ");
 }
 return (0);
 }
