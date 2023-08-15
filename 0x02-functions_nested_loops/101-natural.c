@@ -14,6 +14,6 @@ if (n % 3 == 0 || n % 5 == 0)
 sum += n;
 }
 }
-_putchar(sum + 48);
-_putchar('\n');
+putchar(sum + 48);
+putchar('\n');
 }
