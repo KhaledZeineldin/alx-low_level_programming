@@ -15,13 +15,13 @@ y = x;
 if (sum % 2 == 0)
 {
 total += sum;
-if (total <= 4000000)
+if (total >= 4000000)
 {
 printf("%lu", total);
+break;
 }
 }
 x = sum;
-printf("\n");
 }
 return (0);
 }
