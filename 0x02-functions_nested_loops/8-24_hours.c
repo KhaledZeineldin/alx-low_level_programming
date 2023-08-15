@@ -2,7 +2,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print jack_bauer - prints 1 if character is lower case else 0
+ * jack_bauer - prints 1 if character is lower case else 0
  * Description - tells if a character is lower case or not
  * Return: Always 0 (Success)
  *
