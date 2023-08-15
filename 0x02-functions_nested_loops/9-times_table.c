@@ -17,7 +17,6 @@ for (j = 0; j <= 9; j++)
 _putchar((i * j) + '0');
 if (i == 9)
 {
-j = 0;
 continue;
 }
 _putchar(',');
