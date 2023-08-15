@@ -12,10 +12,16 @@ for (; sum < 4000000;)
 {
 sum = x + y;
 y = x;
-if ( sum % 2 == 0)
+if (sum % 2 == 0)
 {
 total += sum;
 if (total <= 4000000)
 {
 printf("%lu", total);
+}
+}
+x = sum;
+printf("\n");
+}
+return (0);
 }
