@@ -17,4 +17,5 @@ sum += n;
 }
 printf("%d", sum);
 putchar('\n');
+return;
 }
