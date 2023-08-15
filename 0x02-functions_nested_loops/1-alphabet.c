@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - prints alphabets
  *
  * Description: A program that prints alphabets
  *
@@ -8,7 +8,7 @@
  *
 */
 
-int main(void)
+void print_alphabet(void)
 {
 char a;
 for (a = 'a'; a <= 'z'; a++)
