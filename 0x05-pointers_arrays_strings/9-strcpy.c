@@ -15,8 +15,8 @@ i++;
 if (*(src + i) == '\0')
 {
 *(dest + i) = '\0';
-break;
-}
 return (dest);
 }
+}
+return (dest);
 }
