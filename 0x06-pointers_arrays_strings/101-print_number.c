@@ -36,7 +36,7 @@ void print_number(int n)
 		putchar(((m / count) % 10) + 48);
 	}
 }
-void _putchar(void)
+void _putchar(char)
 {
 	return (write(1, &c, 1));
 }
