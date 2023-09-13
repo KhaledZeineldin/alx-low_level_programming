@@ -3,23 +3,23 @@
 /**
 * _calloc - allocate memory using malloc and initialize it to zero
 *@nmemb: number of elements
-*@size: size of the memory block to be allocated
+*@size: size of the memory ptr to be allocated
 *
-*Return: poiner to the address of the memory block
+*Return: poiner to the address of the memory ptr
 */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *block;
-	unsigned int i;
+	char *ptr;
+	unsigned int index;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	block = malloc(nmemb * size);
-	if (block != NULL)
+	ptr = malloc(nmemb * size);
+	if (ptr != NULL)
 	{
-		for (i = 0; i < (nmemb * size); i++)
-			block[i] = 0;
-		return (block);
+		for (index = 0; index < (nmemb * size); index++)
+			ptr[index] = 0;
+		return (ptr);
 	}
 	else
 		return (NULL);

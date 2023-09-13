@@ -5,25 +5,25 @@
 * @min: smallest number in the array
 * @max: lagrest value in the array
 *
-* Return: pointer to the address of the memory block
+* Return: pointer to the address of the memory ptr
 */
 
 int *array_range(int min, int max)
 {
-	int *block;
-	int i, j = 0;
+	int *ptr;
+	int index, j = 0;
 
 	if (min > max)
 		return (NULL);
-	block = malloc(sizeof(*block) * ((max - min) + 1));
-	if (block != NULL)
+	ptr = malloc(sizeof(*ptr) * ((max - min) + 1));
+	if (ptr != NULL)
 	{
-		for (i = min; i <= max; i++)
+		for (index = min; index <= max; index++)
 		{
-			block[j] = i;
+			ptr[j] = index;
 			j++;
 		}
-		return (block);
+		return (ptr);
 	}
 	else
 		return (NULL);
